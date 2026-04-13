@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/actionSortByRating"
+        android:title="Sort by Rating (high to low)" />
+    <item
+        android:id="@+id/actionSortByYear"
+        android:title="Sort by Year (newest to oldest)" />
+    <item
+        android:id="@+id/actionSortByCost"
+        android:title="Sort by Cost (low to high)" />
+</menu>

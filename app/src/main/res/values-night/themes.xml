@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LumiRise" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+        
+        <!-- Tertiary brand color -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+        
+        <!-- Background and surface colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#0D0D0D</item>
+        <item name="android:navigationBarColor">#0D0D0D</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    
+    <!-- Alarm Dark Mode Theme -->
+    <style name="Theme.LumiRise.Alarm" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/alarm_primary</item>
+        <item name="android:colorBackground">@color/alarm_background</item>
+        <item name="colorSurface">@color/alarm_card_background</item>
+        <item name="colorOnSurface">@color/alarm_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/alarm_text_secondary</item>
+        <item name="android:statusBarColor">@color/alarm_background</item>
+        <item name="android:navigationBarColor">@color/alarm_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

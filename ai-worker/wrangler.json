@@ -1,0 +1,22 @@
+{
+  "name": "ai-worker-lumirise",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "ai": {
+    "binding": "AI"
+  },
+  "vectorize": [
+    {
+      "binding": "VECTORIZE_FAQ",
+      "index_name": "lumirise-faq"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "SUPABASE_URL": "https://plqzygsrozwylyelhzue.supabase.co",
+    "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBscXp5Z3Nyb3p3eWx5ZWxoenVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIyMDczNTAsImV4cCI6MjA4Nzc4MzM1MH0.5HBjueHX9VCzux-NuLHuOLFClKIqa8NSiwi-V9pDRQ0"
+  }
+}

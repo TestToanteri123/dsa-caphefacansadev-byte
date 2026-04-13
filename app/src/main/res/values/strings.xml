@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replace with YOUR Web OAuth Client ID from Google Cloud Console -->
+    <string name="server_client_id">425392999066-b37etdrfk2rdp5b3h202hbkarh75tide.apps.googleusercontent.com</string>
+    
+    <string name="app_name">LumiRise</string>
+    <string name="discover">Discover</string>
+    <string name="menu">Menu</string>
+    <string name="sort_compare">Sort &amp; Compare</string>
+    <string name="sort">Sort</string>
+    <string name="compare_cars">Compare Cars</string>
+    <string name="back">Back</string>
+    <string name="notifications">Notifications</string>
+    <string name="toggle_view">Toggle View</string>
+    <string name="search_cars_hint">Search for a car (e.g. Tesla)</string>
+    <string name="filter">Filter</string>
+    <string name="balance">Balance</string>
+    <string name="featured_cars">Featured Cars</string>
+    <string name="see_all">See All</string>
+    <string name="all_cars">All Cars</string>
+    <string name="suv">SUV</string>
+    <string name="sedan">Sedan</string>
+    <string name="electric">Electric</string>
+    <string name="luxury">Luxury</string>
+    <string name="available_near_you">Available Near You</string>
+    <string name="home">Home</string>
+    <string name="bookings">Bookings</string>
+    <string name="profile">Profile</string>
+    
+    <!-- Existing strings -->
+    <string name="credit_balance">Credits: 1000</string>
+    <string name="favorites">Favorites</string>
+    <string name="available_cars">Available Cars</string>
+    <string name="no_favorites">No favorites yet</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="page_indicator">Page 1 of 1</string>
+    <string name="car_image_description">Car image</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="daily_cost">Daily Cost</string>
+    <string name="rental_days">Rental Days</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="rent_now">Rent Now</string>
+    <string name="day">day</string>
+    <string name="days">days</string>
+    <string name="rent">Rent</string>
+    <string name="book">Book</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="add_to_compare">Add to compare</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="edit">Edit</string>
+    <string name="account">Account</string>
+    <string name="my_favorites">My Favorites</string>
+    <string name="booking_history">Booking History</string>
+    <string name="check_past_trips">Check past trips</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="preferences">Preferences</string>
+    <string name="manage_alerts">Manage alerts</string>
+    <string name="log_out">Log Out</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_desc">Deep interface for late nights</string>
+    <string name="adjust_appearance">Adjust appearance</string>
+    <string name="vehicles_saved">vehicles saved</string>
+    <string name="add_card">Add Card</string>
+    <string name="no_payment_methods">No payment methods</string>
+    <string name="expires">Expires</string>
+    <string name="cardholder">Cardholder</string>
+    <string name="default_card">Default</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="notifications_settings">Notifications Settings</string>
+    <string name="rental_reminders">Rental Reminders</string>
+    <string name="rental_reminders_desc">Get notified about upcoming rentals</string>
+    <string name="promotions">Promotions</string>
+    <string name="promotions_desc">Receive special offers and discounts</string>
+    <string name="app_updates">App Updates</string>
+    <string name="app_updates_desc">Be notified about new features</string>
+    <string name="voice_assistant">Voice Assistant</string>
+    <string name="immediate_pickup_only_message">Immediate pickup only: start date is today.</string>
+    
+    <!-- Alarm strings -->
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="alarm_ringing">Alarm Ringing</string>
+    <string name="wake_up">Wake up!</string>
+    <string name="cancel_mission">Cancel Mission</string>
+    <string name="alarm_dismissed">Alarm Dismissed</string>
+    <string name="closing_in">Closing in a moment…</string>
+    <string name="no_more_snoozes">No more snoozes</string>
+    <string name="snooze_count">Snooze (%1$d left)</string>
+    <string name="snoozes_remaining">%1$d snoozes left</string>
+    <string name="next_ring_in">Next ring in %1$dm %2$ds</string>
+    <string name="alarm_dismissed_icon_desc">Dismissed icon</string>
+    <string name="power_button_blocked_message">Alarm will keep ringing! Complete the mission to dismiss.</string>
+    
+    <!-- Shake Mission strings -->
+    <string name="shake_icon_description">Shake device icon</string>
+    <string name="shake_instruction">Shake your device!</string>
+    <string name="shake_animation_hint">Keep shaking until complete</string>
+    
+    <!-- Photo Mission strings -->
+    <string name="photo_instruction">Take a photo to dismiss</string>
+    <string name="photo_instruction_setup">Set up your target photo</string>
+    <string name="capture_photo">Capture</string>
+    <string name="camera_permission_required">Camera permission required</string>
+    <string name="auto_capture_on">Auto-capture: ON</string>
+    <string name="auto_capture_off">Auto-capture: OFF</string>
+    <string name="matching_photo">Analyzing photo…</string>
+    <string name="photo_matched">Photo Matched!</string>
+    <string name="photo_not_matched">Photo doesn\'t match. Try again.</string>
+    <string name="photo_setup_complete">Target photo saved!</string>
+    <string name="photo_setup_hint">Position your camera and tap Capture to save the target photo</string>
+    <string name="similarity">Similarity: %d%%</string>
+    <string name="target_photo_missing">No target photo set. Please set one first.</string>
+    <string name="camera_error">Camera error occurred</string>
+    <string name="photo_saved">Photo captured</string>
+    
+    <!-- Sleep History strings -->
+    <string name="sleep_history">Sleep History</string>
+    <string name="no_sleep_records">No sleep records yet</string>
+    <string name="no_sleep_records_hint">Start tracking your sleep to see your history</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="sleep_duration">Sleep Duration</string>
+    <string name="snore_timeline">Snore Timeline</string>
+    <string name="sleep_tracking_started">Sleep tracking started</string>
+    <string name="sleep_record_deleted">Sleep record deleted</string>
+    <string name="delete_sleep_record">Delete Sleep Record</string>
+    <string name="delete_sleep_record_confirm">Are you sure you want to delete this sleep record?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Wake Check strings -->
+    <string name="wake_check_title">Wake Up Check</string>
+    <string name="wake_check_question">Are you awake?</string>
+    <string name="wake_check_timer">Tap to confirm you\'re awake</string>
+    <string name="im_awake">I\'m Awake</string>
+    <string name="wake_check_warning">Alarm will ring again if no response</string>
+    <string name="wake_check_confirmed">Good Morning!</string>
+    <string name="wake_check_confirmed_message">You\'re confirmed awake. Have a great day!</string>
+    
+    <!-- Mission Selection strings -->
+    <string name="choose_mission">CHOOSE MISSION</string>
+    <string name="choose_mission_subtitle">Pick your Engagement Mission. Pick a task to prove you\'re fully awake.</string>
+    <string name="mission_none">None (Simple alarm)</string>
+    <string name="mission_math">Math</string>
+    <string name="mission_math_description">Solve math problems to dismiss</string>
+    <string name="mission_shake">Shake</string>
+    <string name="mission_shake_description">Shake your phone to dismiss</string>
+    <string name="mission_photo">Photo</string>
+    <string name="mission_photo_description">Take a photo to dismiss</string>
+    <string name="highly_effective">Highly Effective</string>
+    <string name="customize_mission_rules">Customize Mission Rules</string>
+    
+    <!-- Bottom Navigation strings -->
+    <string name="nav_alarms">Alarms</string>
+    <string name="nav_missions">Missions</string>
+    <string name="nav_records">Records</string>
+    <string name="nav_settings">Settings</string>
+    <string name="add_alarm">Add alarm</string>
+    <string name="no_alarms_set">No alarms set</string>
+    <string name="tap_to_add_alarm">Tap + to add your first alarm</string>
+    
+    <!-- Settings strings -->
+    <string name="settings">Settings</string>
+    <string name="always_on">Always on</string>
+    <string name="general">General</string>
+    <string name="default_snooze_duration">Default Snooze Duration</string>
+    <string name="auto_delete_old_alarms">Auto-delete Old Alarms</string>
+    <string name="remove_triggered_after_24h">Remove triggered alarms after 24 hours</string>
+    <string name="sound">Sound</string>
+    <string name="default_alarm_sound">Default Alarm Sound</string>
+    <string name="volume_level">Volume Level</string>
+    <string name="gradually_increase_volume">Gradually Increase Volume</string>
+    <string name="start_quiet_get_louder">Start quiet, get louder over 30 seconds</string>
+    <string name="sleep_tracking">Sleep Tracking</string>
+    <string name="auto_start_tracking">Auto-start Tracking</string>
+    <string name="begin_tracking_dismissed">Begin sleep tracking when alarm is dismissed</string>
+    <string name="snoring_sensitivity">Snoring Sensitivity</string>
+    <string name="keep_alarm_history">Keep alarm history</string>
+    <string name="vibration_pattern">Vibration pattern</string>
+    <string name="smart_alarm">Smart alarm</string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="about">About</string>
+    <string name="app_version">App Version</string>
+    <string name="rate_app">Rate App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="app_description">Wake up with purpose</string>
+    <string name="appearance">Appearance</string>
+</resources>

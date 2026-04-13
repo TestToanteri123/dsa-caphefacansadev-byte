@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardBackgroundColor="@color/card_background"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/border_color"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <!-- Enable/Disable Switch (on left) -->
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/alarmSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:thumbTint="@color/surface_container_highest"
+            app:trackTint="@color/secondary" />
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/alarmTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/on_surface"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            tools:text="07:30"
+            app:layout_constraintStart_toEndOf="@id/alarmSwitch"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- AM/PM indicator -->
+        <TextView
+            android:id="@+id/alarmAmPm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="AM"
+            app:layout_constraintBottom_toBottomOf="@id/alarmTime"
+            app:layout_constraintStart_toEndOf="@id/alarmTime" />
+
+        <!-- Label -->
+        <TextView
+            android:id="@+id/alarmLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:textColor="@color/on_surface_variant"
+            android:textSize="14sp"
+            tools:text="Wake up"
+            app:layout_constraintStart_toEndOf="@id/alarmSwitch"
+            app:layout_constraintEnd_toStartOf="@id/missionIcon"
+            app:layout_constraintTop_toBottomOf="@id/alarmTime" />
+
+        <!-- Repeat days chips -->
+        <LinearLayout
+            android:id="@+id/repeatDaysContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toEndOf="@id/alarmSwitch"
+            app:layout_constraintEnd_toStartOf="@id/missionIcon"
+            app:layout_constraintTop_toBottomOf="@id/alarmLabel">
+
+            <TextView
+                android:id="@+id/dayMon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/bg_day_chip_inactive"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="M"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/dayTue"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_day_chip_inactive"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="T"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/dayWed"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_day_chip_inactive"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="W"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/dayThu"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_day_chip_inactive"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="T"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/dayFri"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_day_chip_inactive"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="F"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/daySat"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_day_chip_inactive"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/daySun"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_day_chip_inactive"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="S"
+                android:textColor="@color/on_surface_variant"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+        <!-- Mission indicator -->
+        <ImageView
+            android:id="@+id/missionIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/bg_mission_icon_container"
+            android:padding="6dp"
+            android:src="@drawable/ic_bolt"
+            android:visibility="gone"
+            app:tint="@color/primary"
+            tools:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Mission Text (below icon) -->
+        <TextView
+            android:id="@+id/missionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/primary"
+            android:textSize="10sp"
+            android:visibility="gone"
+            tools:text="Math: Easy"
+            tools:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@id/missionIcon"
+            app:layout_constraintStart_toStartOf="@id/missionIcon"
+            app:layout_constraintTop_toBottomOf="@id/missionIcon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

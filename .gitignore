@@ -1,0 +1,6 @@
+build/
+.sisyphus
+*.lock
+node_modules/
+*.mp4
+*.pdf

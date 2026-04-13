@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode Base Theme -->
+    <style name="Theme.LumiRise" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+        <item name="colorPrimaryFixed">@color/primary_fixed</item>
+        <item name="colorPrimaryFixedDim">@color/primary_fixed_dim</item>
+        <item name="colorPrimaryDim">@color/primary_dim</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+        <item name="colorSecondaryFixed">@color/secondary_fixed</item>
+        <item name="colorSecondaryFixedDim">@color/secondary_fixed_dim</item>
+        
+        <!-- Tertiary brand color -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/on_tertiary_container</item>
+        <item name="colorTertiaryFixed">@color/tertiary_fixed</item>
+        <item name="colorTertiaryFixedDim">@color/tertiary_fixed_dim</item>
+        
+        <!-- Background and surface colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorSurfaceBright">@color/surface</item>
+        <item name="colorSurfaceContainer">@color/card_background</item>
+        <item name="colorSurfaceContainerHigh">@color/surface_variant</item>
+        <item name="colorSurfaceContainerHighest">@color/outline_variant</item>
+        <item name="colorSurfaceContainerLow">@color/background</item>
+        <item name="colorSurfaceContainerLowest">@color/white</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorSurfaceTint">@color/primary</item>
+        
+        <!-- Inverse colors -->
+        <item name="colorInverseSurface">@color/inverse_surface</item>
+        <item name="colorInverseOnSurface">@color/inverse_on_surface</item>
+        <item name="colorInversePrimary">@color/inverse_primary</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+        <item name="colorErrorDim">@color/error_dim</item>
+        
+        <!-- Outline colors -->
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+        
+        <!-- Status bar and navigation bar - Light mode -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Light Mode Theme - NoActionBar (for activities with custom toolbar) -->
+    <style name="Theme.LumiRise.NoActionBar" parent="Theme.LumiRise">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Light Mode Theme for Alarm Activity -->
+    <style name="Theme.LumiRise.Alarm" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/alarm_primary</item>
+        <item name="android:colorBackground">@color/alarm_background</item>
+        <item name="colorSurface">@color/alarm_card_background</item>
+        <item name="colorOnSurface">@color/alarm_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/alarm_text_secondary</item>
+        <item name="android:statusBarColor">@color/alarm_background</item>
+        <item name="android:navigationBarColor">@color/alarm_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Card styles - Defined in styles.xml -->
+    <style name="Widget.LumiRise.CardView.Alarm" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/alarm_card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/alarm_card_border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Button styles - Defined in styles.xml -->
+
+    <!-- FAB style - Defined in styles.xml -->
+
+    <!-- Bottom Navigation style -->
+    <style name="Widget.LumiRise.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/surface</item>
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.LumiRise.BottomNavigationView.ActiveIndicator</item>
+    </style>
+
+    <style name="Widget.LumiRise.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/primary_container</item>
+    </style>
+
+    <!-- Toolbar style -->
+    <style name="Widget.LumiRise.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/on_surface</item>
+        <item name="subtitleTextColor">@color/on_surface_variant</item>
+    </style>
+</resources>

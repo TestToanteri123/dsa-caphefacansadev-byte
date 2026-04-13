@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/shakeIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_menu_compass"
+        android:contentDescription="@string/shake_icon_description"
+        app:layout_constraintBottom_toTopOf="@id/shakeProgressText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/shakeProgressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:alpha="0.95"
+        tools:text="15/30"
+        app:layout_constraintBottom_toTopOf="@id/shakeInstructionText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shakeIcon" />
+
+    <TextView
+        android:id="@+id/shakeInstructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:alpha="0.7"
+        android:text="@string/shake_instruction"
+        app:layout_constraintBottom_toTopOf="@id/shakeAnimationHint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shakeProgressText" />
+
+    <TextView
+        android:id="@+id/shakeAnimationHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:alpha="0.5"
+        android:text="@string/shake_animation_hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shakeInstructionText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom theme attributes -->
+    <attr name="colorPrimaryDim" format="color"/>
+    <attr name="colorSurfaceTint" format="color"/>
+    <attr name="colorInverseSurface" format="color"/>
+    <attr name="colorInverseOnSurface" format="color"/>
+    <attr name="colorInversePrimary" format="color"/>
+    <attr name="colorErrorDim" format="color"/>
+    <attr name="colorSurfaceBright" format="color"/>
+    <attr name="colorSurfaceContainer" format="color"/>
+    <attr name="colorSurfaceContainerLow" format="color"/>
+    <attr name="colorSurfaceContainerHigh" format="color"/>
+    <attr name="colorSurfaceContainerHighest" format="color"/>
+    <attr name="colorSurfaceContainerLowest" format="color"/>
+    <attr name="timePickerMode" format="enum">
+        <enum name="spinner" value="0"/>
+        <enum name="clock" value="1"/>
+    </attr>
+</resources>

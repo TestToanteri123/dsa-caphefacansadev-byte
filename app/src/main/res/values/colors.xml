@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode Colors - Design Specs -->
+    <!-- Background and surface colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#E8E8E8</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="alarm_card_background">#FFFFFF</color>
+    <color name="alarm_card_border">#E0E0E0</color>
+
+    <!-- Primary colors - Accent #6366F1 -->
+    <color name="primary">#6366F1</color>
+    <color name="primary_container">#E0E7FF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#1E1B4B</color>
+    <color name="primary_fixed">#6366F1</color>
+    <color name="primary_fixed_dim">#4F46E5</color>
+    <color name="primary_dim">#4338CA</color>
+    <color name="primary_variant">#6366F1</color>
+    <color name="primary_dark">#4F46E5</color>
+
+    <!-- Secondary colors - Indigo -->
+    <color name="secondary">#6366F1</color>
+    <color name="secondary_container">#E0E7FF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#312E81</color>
+    <color name="secondary_fixed">#E0E7FF</color>
+    <color name="secondary_fixed_dim">#C7D2FE</color>
+    <color name="secondary_variant">#6366F1</color>
+    <color name="secondary_dark">#4F46E5</color>
+
+    <!-- Tertiary colors - Amber accent -->
+    <color name="tertiary">#F59E0B</color>
+    <color name="tertiary_container">#FEF3C7</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="on_tertiary_container">#78350F</color>
+    <color name="tertiary_fixed">#FEF3C7</color>
+    <color name="tertiary_fixed_dim">#FDE68A</color>
+    <color name="tertiary_variant">#F59E0B</color>
+
+    <!-- Text colors - Light mode -->
+    <color name="on_background">#1F2937</color>
+    <color name="on_surface">#1F2937</color>
+    <color name="on_surface_variant">#6B7280</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#6B7280</color>
+
+    <!-- Alarm specific colors - Light mode -->
+    <color name="alarm_background">#F5F5F5</color>
+    <color name="alarm_accent">#6366F1</color>
+    <color name="alarm_amber">#F59E0B</color>
+    <color name="alarm_button_bg">#FFFFFF</color>
+    <color name="alarm_text_primary">#1F2937</color>
+    <color name="alarm_text_secondary">#6B7280</color>
+    <color name="alarm_text_gray">#9CA3AF</color>
+    <color name="alarm_text_dark_gray">#4B5563</color>
+    <color name="alarm_primary">#6366F1</color>
+
+    <!-- Mission Selection Colors - Light mode -->
+    <color name="mission_background">#FFFFFF</color>
+    <color name="mission_screen_background">#F5F5F5</color>
+    <color name="mission_math">#6366F1</color>
+    <color name="mission_shake">#10B981</color>
+    <color name="mission_photo">#F59E0B</color>
+    <color name="mission_badge_amber">#F59E0B</color>
+
+    <!-- Input and border colors -->
+    <color name="input_background">#F3F4F6</color>
+    <color name="border_color">#E5E7EB</color>
+
+    <!-- Chip colors -->
+    <color name="chip_active_background">#E0E7FF</color>
+    <color name="chip_inactive_background">#F3F4F6</color>
+    <color name="chip_available">#10B981</color>
+    <color name="chip_available_container">#D1FAE5</color>
+    <color name="chip_unavailable">#EF4444</color>
+    <color name="chip_unavailable_container">#FEE2E2</color>
+
+    <!-- Error colors -->
+    <color name="error">#DC2626</color>
+    <color name="error_container">#FEE2E2</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#7F1D1D</color>
+    <color name="error_dim">#B91C1C</color>
+
+    <!-- Outline colors -->
+    <color name="outline">#D1D5DB</color>
+    <color name="outline_variant">#E5E7EB</color>
+
+    <!-- Inverse colors -->
+    <color name="inverse_surface">#1F2937</color>
+    <color name="inverse_on_surface">#F9FAFB</color>
+    <color name="inverse_primary">#818CF8</color>
+
+    <!-- Surface container colors -->
+    <color name="surface_container_lowest">#FFFFFF</color>
+    <color name="surface_container_low">#F5F5F5</color>
+    <color name="surface_container">#FFFFFF</color>
+    <color name="surface_container_high">#E8E8E8</color>
+    <color name="surface_container_highest">#E0E0E0</color>
+    <color name="surface_bright">#FFFFFF</color>
+    <color name="on_primary_fixed">#FFFFFF</color>
+
+    <!-- Legacy colors -->
+    <color name="gold">#FFD700</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF808080</color>
+
+    <!-- Chip Choice Selector Colors - Light -->
+    <color name="chip_choice_checked">@color/primary</color>
+    <color name="chip_choice_unchecked">@color/surface_variant</color>
+    <color name="chip_choice_text_checked">@color/on_primary</color>
+    <color name="chip_choice_text_unchecked">@color/on_surface_variant</color>
+
+    <!-- Sleep History Dark Theme Colors -->
+    <color name="sleep_background">#0D0D0D</color>
+    <color name="sleep_card_background">#1A1A1A</color>
+    <color name="sleep_text_primary">#FFFFFF</color>
+    <color name="sleep_text_secondary">#9CA3AF</color>
+    <color name="sleep_text_tertiary">#6B7280</color>
+    <color name="sleep_accent">#6366F1</color>
+    <color name="sleep_quality_good">#10B981</color>
+
+    <!-- Settings Dark Theme Colors -->
+    <color name="settings_header_background">#0D0D0D</color>
+    <color name="settings_card_background">#1A1A1A</color>
+    <color name="settings_text_primary">#FFFFFF</color>
+    <color name="settings_text_secondary">#9CA3AF</color>
+    <color name="settings_nav_background">#0D0D0D</color>
+    <color name="settings_nav_item_active">#6366F1</color>
+    <color name="settings_nav_item_inactive">#6B7280</color>
+    <color name="settings_divider">#2D2D2D</color>
+    <color name="settings_section_header">#6366F1</color>
+</resources>
